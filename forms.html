@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Forma</title>
+<style>
+body {
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+.container {
+  width: 350px;
+  margin: 50px auto;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <form id="form">
+    
+    <div class="row">
+      <input type="text" placeholder="First name" id="fname">
+      <input type="text" placeholder="Last name" id="lname">
+    </div>
+
+    <input type="email" placeholder="Email" id="email">
+
+    <button type="submit">Dizimnen ótiw</button>
+
+  </form>
+</div>  <br> <br>
+   <hr>
+<label>
+  <input type="radio" name="gender" required> Erkek
+</label>
+
+<label>
+  <input type="radio" name="gender"> Hayal
+</label> <br> <br>
+  <hr>
+<input type="password" id="password" placeholder="Password" required minlength="8"> <br> <br>
+ <hr>
+<input type="number" min="1" max="10" value="1"> <br> <br>
+  <hr>
+<input type="color" value="#00ff00"> 
+</body>
+</html>
+
