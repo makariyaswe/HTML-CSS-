@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML</title>
+    <style>
+        .box{
+            height: 100px;
+            border: 2px solid black;
+            display: flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items: center;
+            background-color: lightblue;
+            color:blue;
+        }
+         .box2{
+            display: flex;
+            flex-direction: row;
+            height: 100px;
+            border: 2px solid black;
+            gap: 5px;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="box">
+        <div style="background-color: lightskyblue;">Tam o'rtada</div>
+    </div>
+
+    <hr>
+     <div class="box2">
+        <div style="background-color: lightskyblue;">Element 1</div>
+        <div style="background-color: lightcoral;">Element 2</div>
+        <div style="background-color: lightgreen;">Element 3</div>
+  </body>
+</html>
